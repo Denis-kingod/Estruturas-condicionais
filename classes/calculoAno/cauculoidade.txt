@@ -1,0 +1,16 @@
+
+
+ static void Main(string[] args)
+        {
+            Console.WriteLine("calculo da idade \n");
+            Console.WriteLine("qual sua idade atual?");
+            anoAtual = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("em que ano nasceu?");
+            dataNascimento = int.Parse(Console.ReadLine());
+            idade = anoAtual - dataNascimento;
+            Console.WriteLine("\n sua idade é :"+ idade);
+
+            idadeSemana = idade *250;
+            Console.WriteLine("sua idade em semanas é:");
+        }
